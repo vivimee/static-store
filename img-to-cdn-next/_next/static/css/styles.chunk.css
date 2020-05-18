@@ -495,6 +495,8 @@
 .Toastify__slide-exit--bottom-center {
   animation-name: Toastify__slideOutDown;
 }
+
+/*# sourceMappingURL=ReactToastify.css.map */
 html, body, #__next {
   padding: 0;
   margin: 0;
@@ -560,6 +562,12 @@ html, body, #__next {
 }
 .col-grow {
   flex-grow: 1;
+}
+.col-tool {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .img-example {
   display: inline-block;
