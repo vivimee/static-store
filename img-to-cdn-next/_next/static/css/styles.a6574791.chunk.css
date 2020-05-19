@@ -501,6 +501,8 @@ html, body, #__next {
   height: 100%;
 }
 .homepage {
+  max-width: 1200px;
+  margin: 0 auto;
   height: 100%;
   box-sizing: border-box;
   padding: 20px;
@@ -574,6 +576,7 @@ html, body, #__next {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  cursor: pointer;
 }
 button {
   border-radius: 0;
@@ -581,8 +584,21 @@ button {
   border: 1px solid #e1e1e1;
   padding: 5px 15px;
   font-size: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: .6;
+}
+button:active {
+  opacity: .2;
 }
 .hiddenInput {
   width: 1px;
   opacity: 0;
+}
+.url-span:hover {
+  color: #111;
+  text-decoration: underline;
+  cursor: pointer;
 }
